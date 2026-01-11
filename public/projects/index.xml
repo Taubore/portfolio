@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Projects on Portfolio</title>
+    <link>//localhost:1313/projects/</link>
+    <description>Recent content in Projects on Portfolio</description>
+    <generator>Hugo -- 0.154.2</generator>
+    <language>fr-ca</language>
+    <atom:link href="//localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Devastator</title>
+      <link>//localhost:1313/projects/devastator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/devastator/</guid>
+      <description>&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+&lt;p&gt;Robot mobile expérimental.&lt;/p&gt;
+&lt;h2 id=&#34;prérequis&#34;&gt;Prérequis&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;…&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;matériel&#34;&gt;Matériel&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;…&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;médias&#34;&gt;Médias&lt;/h2&gt;
+&lt;h3 id=&#34;photos&#34;&gt;Photos&lt;/h3&gt;
+&lt;p&gt;(à venir)&lt;/p&gt;
+&lt;h3 id=&#34;vidéos&#34;&gt;Vidéos&lt;/h3&gt;
+&lt;p&gt;(à venir)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>LeRobot</title>
+      <link>//localhost:1313/projects/lerobot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/lerobot/</guid>
+      <description>&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+&lt;p&gt;Plateforme d’apprentissage robotique et IA.&lt;/p&gt;
+&lt;h2 id=&#34;prérequis&#34;&gt;Prérequis&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;…&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;matériel&#34;&gt;Matériel&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;…&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;médias&#34;&gt;Médias&lt;/h2&gt;
+&lt;h3 id=&#34;photos&#34;&gt;Photos&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://exemple.com/source&#34;&gt;&lt;img alt=&#34;Un premier bras de construit&#34; loading=&#34;lazy&#34; src=&#34;//localhost:1313/media/lerobot/photo_001.heic&#34;&gt;&lt;/a&gt;
+&lt;em&gt;Châssis – vue avant. Source : &lt;a href=&#34;https://exemple.com/source&#34;&gt;https://exemple.com/source&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&#34;vidéos&#34;&gt;Vidéos&lt;/h3&gt;
+&lt;p&gt;(à venir)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
