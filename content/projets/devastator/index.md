@@ -2,6 +2,8 @@
 title: Devastator
 summary: >
     Mon robot expérimental qui m'aide à apprendre l'électronique et divers capteurs ainsi que le framework ROS 2.
+description: >
+    Mon robot expérimental qui m'aide à apprendre l'électronique et divers capteurs ainsi que le framework ROS 2.
 ---
 
 ## Description
@@ -20,7 +22,7 @@ Robot expérimental qui m'aide à apprendre ROS 2 et la robotique en général. 
 ## Photos
 {{< imglink "/media/Devastator/Devastator_001.jpg" 
     "Devastator modifié, vue de côté" 
-    "Devastatori modifié : janvier 2026. Peu de connexions encore d'effectuées. Vue de côté." >}}
+    "Devastator modifié : janvier 2026. Peu de connexions encore d'effectuées. Vue de côté." >}}
 {{< imglink "/media/Devastator/Devastator_002.jpg" 
     "Devastator modifié, vue de face" 
     "Vue de face." >}}
