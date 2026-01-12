@@ -1,6 +1,7 @@
 ---
-title: "LeRobot"
-summary: "Projet LeRobot (SO-101) de Hugging Face pour m'initier à la robotique de base et surtout au Machine Learning."
+title: LeRobot
+summary: >
+    Projet LeRobot (SO-101) de Hugging Face pour m'initier à la robotique de base et surtout au Machine Learning.
 ---
 
 ## Description

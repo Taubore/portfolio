@@ -1,6 +1,7 @@
 ---
-title: "Devastator"
-summary: "Mon robot expérimental qui m'aide à apprendre l'électronique et divers capteurs ainsi que le framework ROS 2."
+title: Devastator
+summary: >
+    Mon robot expérimental qui m'aide à apprendre l'électronique et divers capteurs ainsi que le framework ROS 2.
 ---
 
 ## Description
