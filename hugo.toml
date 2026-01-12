@@ -8,8 +8,6 @@ theme = "PaperMod"
   ShowShareButtons = false
   ShowReadingTime = false
   mainSections = []
-  disableSpecial1stPost = true # Requis pour éviter les erreurs de commit sur Github Pages
-  disableJSONLD = true # Idem que ci-dessus
 
 [menu]
   [[menu.main]]
