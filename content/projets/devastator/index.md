@@ -20,16 +20,16 @@ Robot expérimental qui m'aide à apprendre ROS 2 et la robotique en général. 
 - 2 Moteurs DC
 
 ## Photos
-{{< imglink "/media/Devastator/Devastator_001.jpg" 
+{{< imglink "/media/devastator/Devastator_001.jpg" 
     "Devastator modifié, vue de côté" 
     "Devastator modifié : janvier 2026. Peu de connexions encore d'effectuées. Vue de côté." >}}
-{{< imglink "/media/Devastator/Devastator_002.jpg" 
+{{< imglink "/media/devastator/Devastator_002.jpg" 
     "Devastator modifié, vue de face" 
     "Vue de face." >}}
-{{< imglink "/media/Devastator/Devastator_003.jpg" 
+{{< imglink "/media/devastator/Devastator_003.jpg" 
     "Devastator modifié, vue du dessus" 
     "Vue du dessus." >}}
-{{< imglink "/media/Devastator/Devastator_004.jpg" 
+{{< imglink "/media/devastator/Devastator_004.jpg" 
     "Devastator modifié, vue du dessus sous le capot" 
     "Vue du dessus, mais sous le capot. Deux moteurs DFRobot - FIT0521 avec encodeurs en quadrature." >}}
 

@@ -7,18 +7,20 @@ relativeURLs = false
 
 
 [params]
-  ShowBreadCrumbs = true
+  ShowBreadCrumbs = true          # Afficher le fil d'Ariane
   ShowShareButtons = false
   ShowReadingTime = false
   mainSections = []
 
 [menu]
-  [languages.fr-ca]
-    [[languages.fr-ca.menu.main]]
-      name = "Projets"
-      identifier = "projets"
-      pageRef = "projets"
-      weight = 1
+[languages.fr-ca]
+  languageName = "Français"
+  weight = 1
+
+  [[languages.fr-ca.menu.main]]
+    name = "Projets"
+    pageRef = "projets"
+    weight = 1
 
 [markup]
   [markup.goldmark]
