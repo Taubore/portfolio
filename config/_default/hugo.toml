@@ -5,14 +5,12 @@ theme = "PaperMod"
 canonifyURLs = true
 relativeURLs = false
 
-
 [params]
   ShowBreadCrumbs = true          # Afficher le fil d'Ariane
   ShowShareButtons = false
   ShowReadingTime = false
   mainSections = []
 
-[menu]
 [languages.fr-ca]
   languageName = "Français"
   weight = 1
