@@ -3,7 +3,7 @@ languageCode = "fr-ca"
 title = "Portfolio"
 theme = "PaperMod"
 
-canonifyURLs = false
+canonifyURLs = true
 relativeURLs = false
 
 [params]
@@ -11,6 +11,7 @@ relativeURLs = false
   ShowShareButtons = false
   ShowReadingTime = false
   mainSections = []
+  UseHugoToc = true
 
 [languages.fr-ca]
   languageName = "Français"
