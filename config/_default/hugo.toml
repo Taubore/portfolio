@@ -1,7 +1,8 @@
-baseURL = "http://localhost:1313/"
+baseURL = "/"
 languageCode = "fr-ca"
 title = "Portfolio"
 theme = "PaperMod"
+
 canonifyURLs = false
 relativeURLs = false
 
