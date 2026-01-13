@@ -1,7 +1,9 @@
-<a href="{{ .Get 0 | relURL }}"
+{{ $p := .Get 0 | strings.TrimPrefix "/" }}
+
+<a href="{{ $p | absURL }}"
    target="_blank"
    rel="noopener noreferrer">
-  <img src="{{ .Get 0 | relURL }}"
+  <img src="{{ $p | absURL }}"
        alt="{{ .Get 1 }}"
        loading="lazy">
 </a>
