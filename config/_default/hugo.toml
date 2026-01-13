@@ -1,4 +1,4 @@
-baseURL = "https://taubore.github.io/portfolio/"
+baseURL = "/"
 languageCode = "fr-ca"
 title = "Portfolio"
 theme = "PaperMod"
