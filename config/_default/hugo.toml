@@ -5,6 +5,7 @@ theme = "PaperMod"
 canonifyURLs = true
 relativeURLs = false
 
+
 [params]
   ShowBreadCrumbs = true
   ShowShareButtons = false
@@ -12,11 +13,12 @@ relativeURLs = false
   mainSections = []
 
 [menu]
-  [[menu.main]]
-    name = "Projets"
-    identifier = "projets"
-    pageRef = "projets"
-    weight = 1
+  [languages.fr-ca]
+    [[languages.fr-ca.menu.main]]
+      name = "Projets"
+      identifier = "projets"
+      pageRef = "projets"
+      weight = 1
 
 [markup]
   [markup.goldmark]
