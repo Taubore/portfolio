@@ -15,7 +15,7 @@ relativeURLs = false
   [[menu.main]]
     name = "Projets"
     identifier = "projets"
-    pageRef = "/projets"
+    pageRef = "projets"
     weight = 1
 
 [markup]
