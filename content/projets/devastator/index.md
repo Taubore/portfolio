@@ -1,40 +1,48 @@
----
-title: Devastator
-summary: >
-    Mon robot expérimental qui m'aide à apprendre l'électronique et divers capteurs ainsi que le framework ROS 2.
-description: >
-    Mon robot expérimental qui m'aide à apprendre l'électronique et divers capteurs ainsi que le framework ROS 2.
----
++++
+title = "Devastator"
+description = "Mon robot expérimental qui m'aide à apprendre l'électronique et divers capteurs ainsi que le framework ROS 2."
+date = 2026-01-14
+tags = ["Robotique", "Raspberry Pi 5", "ESP32", "DFRobot", "ROS 2", "Python"]
+categories = ["Projets"]
++++
 
 ## Description
-Robot expérimental qui m'aide à apprendre ROS 2 et la robotique en général. Initialement bâti à partir du kit {{< extlink "https://www.dfrobot.com/product-1477.html" >}} Devastator de DFRobot {{< /extlink >}}. Aujourd'hui je n'utilise maintenant que les chenilles de cette plateforme.
+Robot expérimental qui m'aide à apprendre ROS 2 et la robotique en général. Initialement bâti à partir du kit [Devastator de DFRobot](https://www.dfrobot.com/product-1477.html). Aujourd'hui je n'utilise maintenant que les chenilles de cette plateforme.
 
 ## Prérequis
 - De la curiosité et du temps à consacrer
 - Connaissance de base en programmation Python
 
 ## Matériel (composantes principales)
-- Chenilles du kit {{< extlink "https://www.dfrobot.com/product-1477.html" >}} Devastator de DFRobot {{< /extlink >}}
 - Chenilles du kit [Devastator de DFRobot](https://www.dfrobot.com/product-1477.html)
 - Raspeberry Pi 5
 - ESP32 
-- 2 Moteurs DC
+- 2 Moteurs DC 6V [DFRobot avec encodeur en quadrature (FIT0521)](https://www.dfrobot.com/product-1617.html)
 
 ## Photos
 {{< figure
-    src="/media/devastator/Devastator_001.jpg"
-    caption="Devastator modifié : janvier 2026. Peu de connexions encore d'effectuées. Vue de côté."
+    src="Devastator_001.jpg"
+    alt="Robot Devastator modifié vue de côté"
+    caption="Devastator modifié : janvier 2026. Peu de connexions encore d'effectuées."
 >}}
 
-<figure>
-  <img src="/media/devastator/Devastator_001.jpg" alt="Devastator vue de côté">
-  <figcaption>Devastator modifié : janvier 2026. Peu de connexions encore d'effectuées. Vue de côté.</figcaption>
-</figure>
+{{< figure
+    src="Devastator_002.jpg"
+    alt="Robot Devastator modifié vue de face"
+    caption="Devant un capteur de distance à ultrason (Seeed Studio - Grove - Ultrasonic Ranger V2.0). Aussi derrière un panneau, un haut parleur (Visaton BF 37 8 Ohms)"
+>}}
 
-![Devastator modifié : janvier 2026. Peu de connexions encore d'effectuées. Vue de côté.](/media/devastator/Devastator_001.jpg)Devastator modifié : janvier 2026. Peu de connexions encore d'effectuées. Vue de côté.
-![Vue de face](/media/devastator/Devastator_002.jpg)Vue de face
-![Vue du dessus](/media/devastator/Devastator_003.jpg)Vue du dessus
-![Vue du dessus, mais sous le capot. Deux moteurs DFRobot - FIT0521 avec encodeurs en quadrature](/media/devastator/Devastator_004.jpg)Vue du dessus, mais sous le capot. Deux moteurs DFRobot - FIT0521 avec encodeurs en quadrature.
+{{< figure
+    src="Devastator_003.jpg"
+    alt="Robot Devastator modifié vue du dessus"
+    caption="Raspberry Pi5 en haut à gauche. À droite un ESP32. Mon intention est de faire du ESP32 mon contrôleur de moteur avec notamment la gestion de l'encodeur. Le Raspebrry Pi donnera les ordres au ESP32 pour tout ce qui se rapporte aux moteurs."
+>}}
+
+{{< figure
+    src="Devastator_004.jpg"
+    alt="Robot Devastator modifié capot ouvert, vue sur les moteurs"
+    caption="Capot ouvert. Deux moteurs DFRobot 6 V avec encodeur en quadrature (FIT0521)"
+>}}
 
 ## Vidéos
 (à venir)
