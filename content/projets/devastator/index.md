@@ -15,23 +15,26 @@ Robot expérimental qui m'aide à apprendre ROS 2 et la robotique en général. 
 
 ## Matériel (composantes principales)
 - Chenilles du kit {{< extlink "https://www.dfrobot.com/product-1477.html" >}} Devastator de DFRobot {{< /extlink >}}
+- Chenilles du kit [Devastator de DFRobot](https://www.dfrobot.com/product-1477.html)
 - Raspeberry Pi 5
 - ESP32 
 - 2 Moteurs DC
 
 ## Photos
-{{< imglink "/media/devastator/Devastator_001.jpg" 
-    "Devastator modifié, vue de côté" 
-    "Devastator modifié : janvier 2026. Peu de connexions encore d'effectuées. Vue de côté." >}}
-{{< imglink "/media/devastator/Devastator_002.jpg" 
-    "Devastator modifié, vue de face" 
-    "Vue de face." >}}
-{{< imglink "/media/devastator/Devastator_003.jpg" 
-    "Devastator modifié, vue du dessus" 
-    "Vue du dessus." >}}
-{{< imglink "/media/devastator/Devastator_004.jpg" 
-    "Devastator modifié, vue du dessus sous le capot" 
-    "Vue du dessus, mais sous le capot. Deux moteurs DFRobot - FIT0521 avec encodeurs en quadrature." >}}
+{{< figure
+    src="/media/devastator/Devastator_001.jpg"
+    caption="Devastator modifié : janvier 2026. Peu de connexions encore d'effectuées. Vue de côté."
+>}}
+
+<figure>
+  <img src="/media/devastator/Devastator_001.jpg" alt="Devastator vue de côté">
+  <figcaption>Devastator modifié : janvier 2026. Peu de connexions encore d'effectuées. Vue de côté.</figcaption>
+</figure>
+
+![Devastator modifié : janvier 2026. Peu de connexions encore d'effectuées. Vue de côté.](/media/devastator/Devastator_001.jpg)Devastator modifié : janvier 2026. Peu de connexions encore d'effectuées. Vue de côté.
+![Vue de face](/media/devastator/Devastator_002.jpg)Vue de face
+![Vue du dessus](/media/devastator/Devastator_003.jpg)Vue du dessus
+![Vue du dessus, mais sous le capot. Deux moteurs DFRobot - FIT0521 avec encodeurs en quadrature](/media/devastator/Devastator_004.jpg)Vue du dessus, mais sous le capot. Deux moteurs DFRobot - FIT0521 avec encodeurs en quadrature.
 
 ## Vidéos
 (à venir)

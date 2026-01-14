@@ -30,15 +30,9 @@ Le projet LeRobot (SO-101) de Hugging Face vise à démocratiser la robotique en
     - Pas d'imprimante 3D ? {{< extlink "https://www.seeedstudio.com/" >}} SeeedStudio {{< /extlink >}} vend les pièces déjà imprimées pour les deux bras. Ce kit est disponible sur demande chez {{< extlink "https://ca.robotshop.com/fr/products/seeedstudio-so-arm101-ai-arm-pieces-imprimees-en-3d?qd=990071e8b3c694f2b8b0efde2e903a45" >}} Robotshop {{< /extlink >}} ou directement depuis le site de cette entreprise
 
 ## Photos
-{{< imglink "/media/lerobot/LeRobot_001.jpg" 
-    "SO-101 follower presque terminé" 
-    "La construction du bras *follower* est presque achevée." >}}
-{{< imglink "/media/lerobot/LeRobot_002.jpg" 
-    "SO-101 follower avec pièces pour leader" 
-    "Le bras *follower* est entièrement monté et fixé sur le bureau à l'aide de pinces. Les pièces pour le deuxieme bras (*leader*) sont imprimées.." >}}
-{{< imglink "/media/lerobot/LeRobot_003.jpg" 
-    "SO-101 follower entièrement monté, branché, calibré et testé" 
-    "Le bras *follower* est maintenant terminé, branché, calibré et testé." >}}
+[La construction du bras *follower* est presque achevée.](/media/lerobot/LeRobot_001.jpg)
+[Le bras *follower* est entièrement monté et fixé sur le bureau à l'aide de pinces. Les pièces pour le deuxieme bras (*leader*) sont imprimées.](/media/lerobot/LeRobot_002.jpg)
+[Le bras *follower* est maintenant terminé, branché, calibré et testé."](/media/lerobot/LeRobot_003.jpg)
 
 ### Vidéos
 (à venir)

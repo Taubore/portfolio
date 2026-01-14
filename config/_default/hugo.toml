@@ -1,32 +1,85 @@
-baseURL = "/"
+# =========================
+# Base du site
+# =========================
+baseURL = "https://taubore.github.io/portfolio/"
 languageCode = "fr-ca"
+defaultContentLanguage = "fr-ca"
 title = "Portfolio"
-theme = "PaperMod"
+theme = "blowfish"
 
-canonifyURLs = true
+# GitHub Pages (project site)
+canonifyURLs = false
 relativeURLs = false
 
-[params]
-  ShowBreadCrumbs = true          # Afficher le fil d'Ariane
-  ShowShareButtons = false
-  ShowReadingTime = false
-  mainSections = []
-  UseHugoToc = true
+# =========================
+# Langues
+# =========================
+[languages]
 
-[languages.fr-ca]
-  languageName = "Français"
-  weight = 1
-
-  [[languages.fr-ca.menu.main]]
-    name = "Projets"
-    pageRef = "projets"
+  [languages.fr-ca]
+    languageName = "Français"
     weight = 1
 
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+    [[languages.fr-ca.menu.main]]
+      name = "Accueil"
+      pageRef = "/"
+      weight = 1
 
+    [[languages.fr-ca.menu.main]]
+      name = "Projets"
+      pageRef = "projets"
+      weight = 2
+
+# =========================
+# Paramètres Blowfish
+# =========================
+[params]
+
+  # Apparence générale
+  colorScheme = "auto"     # auto | light | dark
+  defaultAppearance = "auto"
+  autoSwitchAppearance = true
+
+  # Navigation
+  showMenuItems = 5
+  showBreadcrumbs = true
+  showScrollToTop = true
+
+  # Pages & contenu
+  enableSearch = true
+  enableCodeCopy = true
+  enableImageLazyLoading = true
+
+  # Documentation technique
+  showTableOfContents = true
+  tableOfContentsDepth = 3
+
+  # Footer
+  showFooter = true
+  showCopyright = true
+
+# =========================
+# Markdown
+# =========================
+[markup]
+
+  [markup.goldmark]
+
+    [markup.goldmark.renderer]
+      unsafe = true   # nécessaire pour shortcodes, HTML embarqué
+
+    [markup.goldmark.parser]
+      attribute = true
+
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+    ordered = false
+
+# =========================
+# Sortie
+# =========================
 [minify]
-  disableHTML = true
-  disableJS = true
+  disableHTML = false
+  disableCSS = false
+  disableJS = false
