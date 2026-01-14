@@ -6,6 +6,13 @@ tags = ["Robotique", "Raspberry Pi 5", "ESP32", "DFRobot", "ROS 2", "Python"]
 categories = ["Projets"]
 +++
 
+## Informations clés
+- **Type de projet** : Robot mobile expérimental
+- **Objectif principal** : Aprentissage de l’électronique et de ROS 2
+- **Matériel principal** : Raspberry Pi 5, ESP32, utilisation d'une partie du kit Devastator de DFRobot
+- **Langages / frameworks** : Linux, Python, ROS 2
+- **État** : en cours
+
 ## Description
 Robot expérimental qui m'aide à apprendre ROS 2 et la robotique en général. Initialement bâti à partir du kit [Devastator de DFRobot](https://www.dfrobot.com/product-1477.html). Aujourd'hui je n'utilise maintenant que les chenilles de cette plateforme.
 

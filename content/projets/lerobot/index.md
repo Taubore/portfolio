@@ -6,6 +6,13 @@ tags = ["Robotique", "Intelligence artificielle", "Feetech STS3215", "Python"]
 categories = ["Projets"]
 +++
 
+## Informations clés
+- **Type de projet** : Bras robotique avec IA
+- **Objectif principal** : Aprentissage de la robotique et de l'intelligence artificielle
+- **Matériel principal** : 12 servo-moteurs Feetech STS3215, 2 contrôleurs de servo-moteurs Waveshare
+- **Langages / frameworks** : Linux, Python
+- **État** : en cours
+
 ## Description
 Le projet LeRobot (SO-101) de Hugging Face vise à démocratiser la robotique en fournissant des modèles pré-entraînés, des jeux de données et des outils open source basés sur PyTorch. L’objectif est de réduire les barrières d’entrée et de permettre à chacun de contribuer et de bénéficier des avancées en apprentissage par imitation et en apprentissage par renforcement. 
 
@@ -43,5 +50,5 @@ Le projet LeRobot (SO-101) de Hugging Face vise à démocratiser la robotique en
     caption="Le bras *follower* est maintenant terminé, branché, calibré et testé. Les 6 moteurs Feetech et les pièces pour le *leader* sont imprimés en plastique PLA."
 >}}
 
-### Vidéos
+## Vidéos
 (à venir)
