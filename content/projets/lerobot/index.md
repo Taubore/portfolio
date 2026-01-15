@@ -1,14 +1,20 @@
 +++
 title = "LeRobot"
-weight = 19
-description = "Projet LeRobot (SO-101) de Hugging Face pour m'initier à la robotique de base et surtout au Machine Learning."
-summary = "Exploration d’un bras robotique pour comprendre la cinématique et le contrôle."
-thumbnailImage = "LeRobot_001.jpg"
+weight = 20
+description = "Projet LeRobot (SO-101) de Hugging Face pour m'initier à la robotique de base et surtout au *Machine Learning*."
+summary = "Exploration du bras robotique LeRobot (SO-101) pour comprendre la cinématique, le contrôle et le *Machine Learning*."
+thumbnailImage = "lerobot_000.jpg"
 date = 2026-01-14
 tags = ["Robotique", "Intelligence artificielle", "Feetech STS3215", "Python"]
 categories = ["Projets"]
 status = "En cours"
 +++
+
+{{< figure
+    src="lerobot_000.jpg"
+    alt="Bras robotique LeRobot (SO-101)"
+    width="50%"
+>}}
 
 ## Informations clés
 - **Type de projet** : Bras robotique avec IA
@@ -39,17 +45,14 @@ Un peu d'investissment monétaire est toutefois requis pour ce projet, soit un t
 
 ## Chronologie
 {{< figure
-    src="LeRobot_001.jpg"
+    src="lerobot_001.jpg"
     alt="Lerobot *follower*"
     caption="2025-12-23 : La construction du bras *follower* est presque achevée."
 >}}
 
-
 {{< figure
-    src="LeRobot_002.jpg"
+    src="lerobot_002.jpg"
     alt="Lerobot *follower* avec pièces pour le *leader*"
     caption="2026-01-02 : Le bras *follower* est maintenant terminé, branché, calibré et testé. Les 6 moteurs Feetech et les pièces pour le *leader* sont imprimés en plastique PLA."
 >}}
 
-## Vidéos
-(à venir)

@@ -1,0 +1,8 @@
+img.medium-zoom-image {
+  width: 100% !important;
+  max-width: 100% !important;
+  display: block !important;
+  margin-left: auto !important; /* Mettre 0 pour aligner à gauche */
+  margin-right: auto !important;
+}
+

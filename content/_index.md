@@ -1,6 +1,7 @@
 +++
-title = "Portfolio"
+title = "Portfolio de Louis St-Hilaire"
 description = "Portfolio de mes projets robotique, électronique, intelligence artficielle et impression 3D"
+layout = "full"
 +++
 
 {{< figure
@@ -16,3 +17,4 @@ Les projets présentés sont souvent incomplets ou à un stade précoce. L’obj
 
 Ce contenu est publié en français afin de contribuer, à mon échelle, au partage technique francophone dans un domaine largement dominé par l’anglais.
 
+👉 Accéder à la liste des [projets](/portfolio/projets/)
