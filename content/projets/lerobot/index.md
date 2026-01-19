@@ -59,7 +59,14 @@ La construction semble terminée, mais pas tout à fait. Il me reste encore quel
 >}}
 Le bras *follower* est maintenant terminé, branché, calibré et testé. Les 6 moteurs Feetech et les pièces pour le *leader* sont imprimés en plastique PLA.
 
-### 2026-01-18 - Bras *leader* finalisé et testé. Premier essais.
+### 2026-01-18 - Bras *leader* finalisé et testé
+{{< figure
+    src="lerobot_003.jpg"
+    alt="Lerobot *leader* construit, branché, calibré et testé."
+>}}
+Le bras *leader* est maintenant terminé, branché, calibré et testé. Quelques soucis lors de la calibration. Je n'avais pas centré la position de mes moteurs avec [l'outil de test de Feetech](https://www.feetechrc.com/software.html) avant l'assemblage. Lors de la calibration, j'ai eu une erreur et j'ai donc dû démonter chaque articulations pour repositionner chaque moteur au centre et remettre la pièces au bon endroit.
+
+### 2026-01-18 - Premier essais avec le bras *follower*
 {{< youtube id="maZ5j3GNaw8" >}}
 Premier essais de mouvements du bras *follower* à partir d'un enregistrement fait avec le bras *leader*. Un programme en Python enregistre un fichier CSV avec des mouvements que j'ai effectués manuellement pendant 10 secondes sur le bras *leader*. Un second programme Python lit le fichier CSV et reproduit ce mouvement sur le bras *follower*. C'est ce que représente cette vidéo. Encore aucune utilisation d'intelligence artificielle. Le programme Python est aussi très basique et ne fait aucune compensation de latence. Je vais publier ce code prochainement.
 
