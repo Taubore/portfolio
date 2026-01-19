@@ -18,7 +18,7 @@ status = "En pause"
 
 ## Informations clés
 - **Type de projet** : Robot humanoïde
-- **Objectif principal** : Aprentissage de l'impression 3D et de la platefome *lowcode* ARC de Synthiam
+- **Objectif principal** : Apprentissage de l'impression 3D et de la platefome *lowcode* ARC de Synthiam
 - **Principaux composants** : servo-moteurs
 - **Système d'exploitation, langage et framework** : Windows, scripts Python au besoin, ARC (Synthiam)
 - **État** : en pause

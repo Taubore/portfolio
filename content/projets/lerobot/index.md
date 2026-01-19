@@ -2,7 +2,7 @@
 title = "LeRobot"
 weight = 20
 description = "Projet LeRobot (SO-101) de Hugging Face pour m'initier à la robotique de base et surtout au *Machine Learning*."
-summary = "Exploration du bras robotique LeRobot (SO-101) pour comprendre la cinématique, le contrôle et le *Machine Learning*."
+summary = "Exploration du bras robotique LeRobot (SO-101) pour comprendre le contrôle des servo-moteurs, la cinématique et le *Machine Learning*."
 thumbnailImage = "lerobot_000.jpg"
 date = 2026-01-14
 tags = ["Robotique", "Intelligence artificielle", "Feetech STS3215", "Python"]
@@ -20,7 +20,7 @@ status = "En cours"
 - **Type de projet** : Bras robotique avec IA
 - **Objectif principal** : Aprentissage de la robotique et de l'intelligence artificielle
 - **Principaux composants** : 12 servo-moteurs Feetech STS3215, 2 contrôleurs de servo-moteurs Waveshare
-- **Système d'exploitation, langage et framework** : Linux, Python, LeRobot
+- **Système d'exploitation, langage et framework** : Linux, Python, LeRobot (PyTorch)
 - **État** : en cours
 
 ## Description
@@ -44,15 +44,24 @@ Un peu d'investissment monétaire est toutefois requis pour ce projet, soit un t
     - Pas d'imprimante 3D ? [SeeedStudio](https://www.seeedstudio.com/) vend les pièces déjà imprimées pour les deux bras. Ce kit est disponible sur demande chez [Robotshop](https://ca.robotshop.com/fr/products/seeedstudio-so-arm101-ai-arm-pieces-imprimees-en-3d?qd=990071e8b3c694f2b8b0efde2e903a45) ou directement depuis le site de cette entreprise
 
 ## Chronologie
+
+### 2025-12-23 - Bras *follower* presque terminé
 {{< figure
     src="lerobot_001.jpg"
     alt="Lerobot *follower*"
-    caption="2025-12-23 : La construction du bras *follower* est presque achevée."
 >}}
+La construction semble terminée, mais pas tout à fait. Il me reste encore quelques pièces à assembler.
 
+### 2026-01-02 - Bras *follower* finalisé et testé
 {{< figure
     src="lerobot_002.jpg"
     alt="Lerobot *follower* avec pièces pour le *leader*"
-    caption="2026-01-02 : Le bras *follower* est maintenant terminé, branché, calibré et testé. Les 6 moteurs Feetech et les pièces pour le *leader* sont imprimés en plastique PLA."
 >}}
+Le bras *follower* est maintenant terminé, branché, calibré et testé. Les 6 moteurs Feetech et les pièces pour le *leader* sont imprimés en plastique PLA.
+
+### 2026-01-18 - Bras *leader* finalisé et testé. Premier essais.
+{{< youtube id="maZ5j3GNaw8" >}}
+Premier essais de mouvements du bras *follower* à partir d'un enregistrement fait avec le bras *leader*. Un programme en Python enregistre un fichier CSV avec des mouvements que j'ai effectués manuellement pendant 10 secondes sur le bras *leader*. Un second programme Python lit le fichier CSV et reproduit ce mouvement sur le bras *follower*. C'est ce que représente cette vidéo. Encore aucune utilisation d'intelligence artificielle. Le programme Python est aussi très basique et ne fait aucune compensation de latence. Je vais publier ce code prochainement.
+
+
 
